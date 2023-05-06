@@ -2,9 +2,10 @@
 
 <p align="center">
   <a href="" rel="noopener">
- <img width=200px height=200px src="" alt="Project logo"></a>
+ <img width=200px height=200px src="https://www.wesd.org/cms/lib/OR01915639/Centricity/Domain/273/6.png" alt="Project logo"></a>
 </p>
-<h1 align="center">Student_Registration_Spring_Boot</h1>
+<div align="center">
+<h1 align="center">Student Registration Using Spring Boot</h1>
 
 <div align="center">
 
