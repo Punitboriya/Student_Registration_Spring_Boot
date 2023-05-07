@@ -4,7 +4,6 @@
   <a href="" rel="noopener">
  <img width=200px height=200px src="https://www.wesd.org/cms/lib/OR01915639/Centricity/Domain/273/6.png" alt="Project logo"></a>
 </p>
-<div align="center">
 <h1 align="center">Student Registration Using Spring Boot</h1>
 
 <div align="center">
@@ -17,7 +16,6 @@
 </div>
 
 <p>
- 
 </p>
 
 ## 📝 Table of Contents
@@ -32,67 +30,61 @@
 - [Acknowledgments](#acknowledgement)
 
 ## 🧐 About <a name = "about"></a>
- From Java JDBC I learnt how to do basic database functions that are CREATE, RETIEVE ,UPDATE and DELETE in Eclipse. using Mysql Database.The INSERT, SELECT, UPDATE and DELETE statements can be used in any database system, because this is support by all relational database systems.
-  Book table consist of following columns id,name,edition,price.
+<p>This Spring Boot Project about to do basic database functions that are CREATE RETIEVE UPDATE and DELETE . using Mysql Database. The INSERT, SELECT, UPDATE and DELETE statements can be used in any database system, because this is support by all relational database systems.</p>
 
+<p>We will learn how to INSERT, SELECT, UPDATE and DELETE in database by writing code to manage the student table in the database named dpsschool.student table consist of following columns studentname,course,fee.</p>
 ## 🏁 Getting Started <a name = "getting_started"></a>
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See [deployment](#deployment) for notes on how to deploy the project on a live system.
 
 ### Prerequisites
-Step 1 :Download JDK
-Step 2: Download an appropriate jdbc driver and in  order to connect jdbc and mysql. Establish the database connection
+<p>[Step 1] : Download JDK</p>
+<p>[Step 2] : Download an appropriate jdbc driver and in  order to connect jdbc and mysql. Establish the database connection</p>
+<p>[step 3] : using Sprin initilizr create a project and add dependancies(web,mysql driver,jpa) for project.</p>
 
 ```
 https://www.oracle.com/java/technologies/downloads/#java8
 https://dev.mysql.com/downloads/connector/j/5.1.html
+https://start.spring.io/
 ```
 
 ### Installing
-first download Eclips IDE and in that from Eclips Marketplace download Windeos Builder software which is used for make GUI.Then downloda XAMPP software for mySQL port no:3308 I used.
+first download Eclips IDE and import the maven project created by spring initilizr.Then downloda XAMPP software for mySQL port no:3308 I used.
 
 ## 🔧 Running the tests 
 
 # Table structure
-![00 table_structure](https://user-images.githubusercontent.com/126247444/235359167-8183a80c-05cc-4dc4-851c-feb68349f750.JPG)
+![001 Table-Structure](https://user-images.githubusercontent.com/126247444/236659637-56fa2411-d2e9-4d5d-9c38-9d56918dca1a.jpg)
 
 
-# How GUI Look / Interface
-![01 interface](https://user-images.githubusercontent.com/126247444/235359183-ebf5b1ef-608a-4687-9a32-a5b526f821ee.JPG)
+# index-html-page
+![002 index-html-page](https://user-images.githubusercontent.com/126247444/236659647-36876e23-092e-45d4-b7d0-e1b292d8fe79.jpg)
 
 
-# Add Record
-![02 record_added](https://user-images.githubusercontent.com/126247444/235359194-dbda383a-ba6f-4174-841d-f93557e6dc03.JPG)
+
+# new-html-page
+![003 new-html-page](https://user-images.githubusercontent.com/126247444/236659682-9c15fb11-d7d4-4833-8225-67be9d81cc22.jpg)
 
 
-# Output of added record
-![02 record_added_output](https://user-images.githubusercontent.com/126247444/235359209-6d4a44e7-9c68-4cf6-8870-d8d8ae213754.JPG)
-
-
-# Update Operation
-![03 update](https://user-images.githubusercontent.com/126247444/235359228-cecfd9f2-68d4-4835-910c-15ae3903ba6f.JPG)
-
-
-# Output of update operation
-![03 update_output](https://user-images.githubusercontent.com/126247444/235359242-40f723c4-ef13-4d2f-98c7-d7a001bd4b21.JPG)
+# Edit Operation
+![004 Edit](https://user-images.githubusercontent.com/126247444/236659699-7d68ec5f-7768-499f-84b6-874b30e14790.jpg)
 
 
 # Delete operation
-![04 delete](https://user-images.githubusercontent.com/126247444/235359281-bd92e9f1-6390-4155-bb46-e2f4b0abbc83.JPG)
+![005 Delet](https://user-images.githubusercontent.com/126247444/236659706-7ca19ef0-3c3c-41b2-ab7e-b101efc60392.jpg)
 
 
-# Output of Delete operation
-![04 delete_output](https://user-images.githubusercontent.com/126247444/235359293-db16aec2-6114-43fb-8cb8-e674d3899811.JPG)
 
 
 ## 🎈 Usage <a name="usage"></a>
-Main Use of this System is Book details update , delate , Book search by Book ID.
+Main Use of this System is Student details update/Edit  , delate .
 
 ## 🚀 Deployment <a name = "deployment"></a>
-First Extract the file from GitHub and import it into Eclipse IDE for Java Developers , Make a Book Database Respectively and you can run the program
+First Extract the file from GitHub and import it into Eclipse IDE , Make a School Database Respectively and you can run the program
 
 ## ⛏️ Built Using <a name = "built_using"></a>
 - [MySQL](https://www.mysql.com/) - Database
 - [Java](https://docs.oracle.com/en/java/) - Langauge
+- [Spring Boot](https://spring.io/) - FreamWork
 
 
 ## ✍️ Authors <a name = "authors"></a>
@@ -101,5 +93,6 @@ First Extract the file from GitHub and import it into Eclipse IDE for Java Devel
 
 ## 🎉 Acknowledgements <a name = "acknowledgement"></a>
 - Hat tip to anyone whose code was used
+- Skill - lync
 
 <h1 align="center"> Thank You for visiting ...</h1>
